@@ -1,0 +1,101 @@
+body {
+  margin: 100;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar_header{
+  display: flex;
+  flex-direction: row;
+}
+#buy{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+#claim{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+#space{
+  padding-top: 85px;
+}
+.fat{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginBtn{
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.background_slider{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.ending{
+  width:65%;
+}
+.SliderStyle{
+  height:600px;
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width: 510px) {
+  .navbar_header{
+    display: flex;
+    flex-direction: column;
+  }
+  #buy{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #claim{
+    display:  flex;
+   flex-direction: column-reverse;
+  }
+  #space{
+    padding-top: 50px;
+  }
+  #split{
+    padding-top: 40px;
+  }
+  .fat{
+    width: 100%;
+  }
+  .loginBtn{
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  .weird{
+    margin-bottom: 20px;
+  }
+  .ending{
+    width:100%;
+  }
+  .SliderStyle{
+    height: 220px;
+    position: relative;
+  }
+  .owner{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
